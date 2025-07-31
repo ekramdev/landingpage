@@ -94,6 +94,8 @@ a{
 }
 .info-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .info-title {
@@ -104,7 +106,8 @@ a{
 }
 .info-container {
     display: flex;
-    gap:20px;
+    gap:15px;
+    
 }
 
 .info-image {
@@ -119,22 +122,21 @@ a{
 .quote-section {
      background-color:#E5E7EB;
       height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 .quote-words {
       font-size: 40px;
-      margin:50px 10px;
       font-weight: 100;
       font-family: Arial, Helvetica, sans-serif;
-      text-align:start;
-      padding: 30px 20px;
+     
         }
 .quote-person {
-     display: inline-block;
+
      font-size: 20px;
      text-align: end;
-     margin-top:-100px;
-     margin-left: 500px;
-     padding: 10px;
+
 }
 .signup-section {
     width: 800px;
